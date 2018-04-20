@@ -20,8 +20,8 @@ def log(message):
 
 consumer = KafkaConsumer(
             "hpot_H1",
-            bootstrap_servers="35.184.35.37:9092",
-            auto_offset_reset='smallest'
+            bootstrap_servers="35.184.35.37:9092"#,
+            #auto_offset_reset='smallest'
             )
 
 uri = "mongodb://superadmin:mz^t93FGcPufwjSz@localhost/hpots?authSource=hpots"
