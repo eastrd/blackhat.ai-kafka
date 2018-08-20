@@ -13,7 +13,7 @@ def log(message):
         
 
 file_path = "/home/cowrie/cowrie/log/cowrie.json"
-kafka_broker = "35.184.35.37:9092"
+kafka_broker = "xxx.xxx.xxx.xxx:9092"
 topic = "hpot_H1"
 
 
